@@ -1,0 +1,94 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color:#fef9e7;
+  color:#6d4c41;
+  padding: 25px;
+  text-align: center;
+}
+
+
+
+a {
+
+    text-decoration: none;
+    color: white;
+    background-color: #BA6E6E;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+  font-size : 18px;
+    font-weight : bold;
+
+}
+
+a:hover {
+  background-color: #964A4A;
+    transition: 0.3s ease;
+}
+
+h2 {
+  font-family: "Space Grotesk";
+  color: #ff8a65;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+.card {
+  background-color: white;
+  padding: 50px;
+  /*width: 500px;*/
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #570A57;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+#profile-pic {
+  width: 150px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
